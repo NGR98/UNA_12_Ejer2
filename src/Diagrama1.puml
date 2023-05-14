@@ -1,0 +1,12 @@
+@startuml
+:Empleado: -Right-> (Introducir Pedido)
+:Empleado: -Right-> (Cancelar Pedido)
+:Empleado: -Left-> (Obtener Estado Pedido)
+:Empleado: -Left-> (Borrar Pedido)
+:Empleado: -Up-> (Buscar Pedidos)
+:Empleado: -Up-> (Alta Cliente)
+:Empleado: -Down-> (Buscar Cliente)
+
+:Adminsitrador: -- (Nuevo Producto)
+:Adminsitrador: -- (Borrar producto)
+@enduml
